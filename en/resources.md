@@ -13,9 +13,14 @@ page_key: resources
 
 ## Course and extension material
 
+- [National Academies: Data Science for Undergraduates](https://www.nationalacademies.org/read/25104/chapter/2) for the activity spectrum, data acumen, ethics, and interdisciplinary curriculum;
+- the [ACM Data Science Task Force](https://dstf.acm.org/) for computing competencies and curriculum guidance;
+- [OpenAI Developers / Codex](https://developers.openai.com/) for the boundary of code understanding, building, testing, fixing, and review capabilities;
 - [Intelligent Software and Data Science](https://github.com/tiejianluo/Intelligent-Software-and-Data-Science) for advanced experiments; solution material is used only within instructor authorization;
 - this site's [topic map]({{ '/en/lectures/' | relative_url }}), [assignment catalog]({{ '/en/assignments/' | relative_url }}), and [lab protocol]({{ '/en/labs/' | relative_url }}); and
 - the active offering's syllabus, Assessment Policy, notebook templates, and data-license notices.
+
+<div class="notice"><strong>Reading order</strong>Use the National Academies and ACM sources to establish the full disciplinary frame first, then learn methods from statistics/ML texts and library documentation, and finally answer “why is this claim trustworthy?” through real data, execution logs, statistical validation, and domain review. Codex documentation describes agent capabilities; it is not evidence that data or conclusions are correct.</div>
 
 ## Recommended tools
 
@@ -54,5 +59,6 @@ Good uses include clarifying a concept, listing assumptions, inspecting code, pr
 
 Include the goal, what you tried, a minimal reproducible input, the complete error, environment versions, and your current diagnosis. Never post student identity, grades, private data, or secrets in a public issue or chat.
 
-</div>
+<div class="notice"><strong>Verified</strong>Disciplinary and Codex official entry points were checked on 2026-08-21. Cloud resources, software versions, and platform policy can change and must be checked again when an experiment runs.</div>
 
+</div>

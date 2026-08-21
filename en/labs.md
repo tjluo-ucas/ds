@@ -26,6 +26,20 @@ Every lab records the problem and hypothesis, input/data version, baseline, inde
 | DS-L5 | OOD and selective prediction | Shift, ensemble/uncertainty, abstention | Coverage-risk, human workload, threshold sensitivity |
 | DS-L6 | Causality and decision | DAG, adjustment, ATE, refutation, policy threshold | Identification, observation/intervention distinction, cost/risk |
 
+## AI_Tutoring lab checkpoints
+
+Every lab follows the same learning loop:
+
+1. **Pre-register:** the student states the question, estimand, expected outcome, failure conditions, and ethical risks;
+2. **Attempt first:** code, a data diagnosis, a plot, or reasoning precedes every core hint;
+3. **Evidence diagnosis:** the Tutor separates prerequisite, data, implementation, statistical, causal, and explanation gaps;
+4. **Bounded hint:** support rises from questions to method advice without releasing the same-task notebook;
+5. **Deterministic checks:** validate schema, leakage, split, seed, tests, metric, and output provenance;
+6. **Explain-back:** the student explains agent advice, accept/reject reasons, and result changes; and
+7. **Transfer probe:** repeat on a new sample, period, population, distribution, or domain.
+
+<div class="notice"><strong>Codex protocol</strong>An agent may clean a copy, draft candidate code, add tests, and run experiments. It must not silently overwrite raw data, and every material output remains traceable. Unexplained generated code, fabricated execution, or sourceless data cannot pass the evidence gate.</div>
+
 ## Algorithm Performance Testing Experiment
 
 Compare sequential, binary, hash, and BST search across:
@@ -54,4 +68,3 @@ Prefer an instructor-approved local Python/Jupyter environment. When a cloud not
 7. reproduction steps and AI-use record.
 
 </div>
-

@@ -26,6 +26,20 @@ page_key: labs
 | DS-L5 | OOD 与选择性预测 | 分布变化、Ensemble/uncertainty、Abstention | Coverage-risk、人工升级量、阈值敏感性 |
 | DS-L6 | 因果与决策 | DAG、Adjustment、ATE、Refutation、策略阈值 | 识别假设、观察/干预区分、成本与风险 |
 
+## AI_Tutoring实验检查点
+
+每个实验执行同一学习闭环：
+
+1. **Pre-register**：学生先提交问题、Estimand、预期结果、失败条件和伦理风险；
+2. **Attempt first**：核心提示前必须提交自己的代码、数据诊断、图表或推理；
+3. **Evidence diagnosis**：Tutor区分先修、数据、实现、统计、因果和解释缺口；
+4. **Bounded hint**：从追问到方法建议逐级提示，不释放同题完整 Notebook；
+5. **Deterministic checks**：检查 Schema、泄漏、Split、Seed、测试、Metric 与输出来源；
+6. **Explain-back**：学生解释 Agent 建议、采纳/拒绝理由及结果变化；
+7. **Transfer probe**：用新样本、时间段、群体、分布或领域验证迁移能力。
+
+<div class="notice"><strong>Codex使用协议</strong>可以请 Agent 清洗副本、生成候选代码、补测试和运行实验；原始数据不得被静默覆盖，所有重要输出必须可追溯。无法解释的生成代码、捏造运行结果或没有真实来源的数据不能通过 Evidence Gate。</div>
+
 ## 算法性能测试实验
 
 该实验比较 Sequential、Binary、Hash 和 BST Search，覆盖：
@@ -54,4 +68,3 @@ page_key: labs
 7. 复现步骤和 AI 使用记录。
 
 </div>
-

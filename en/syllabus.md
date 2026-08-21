@@ -15,6 +15,20 @@ page_key: syllabus
 
 This course prepares students to use modern data science on real scientific and engineering problems. A higher accuracy score is not the endpoint. Students must understand data generation, quantify uncertainty, recognize distribution shift and causal limits, and explain how a model supports safe, auditable decisions.
 
+The [National Academies consensus report](https://www.nationalacademies.org/read/25104/chapter/2) places data collection, storage, integration, analysis, inference, communication, and ethics inside Data Science. The [ACM Data Science Task Force](https://dstf.acm.org/) treats computing as one contribution to a broader interdisciplinary field. This course therefore does not equate Data Science with machine learning, programming, or visualization alone.
+
+## Why systematic study still matters in the agent era
+
+[Official OpenAI documentation](https://developers.openai.com/) says Codex can understand codebases, build and test features, fix bugs, and review changes. It lowers the cost of cleaning data, developing candidate implementations, scripting experiments, and performing basic checks. Code alone still cannot determine:
+
+- whether the problem, population, estimand, label, and decision objective align;
+- whether sampling, measurement, missingness, leakage, and licensing support the analysis;
+- whether an association generalizes or satisfies causal-identification assumptions;
+- whether a metric gain has statistical, practical, and operational significance; or
+- whether fairness, privacy, risk, cost, and feedback loops are acceptable.
+
+The goal rises from “call a model” to “propose, falsify, revise, and responsibly defend a data evidence chain.”
+
 ## Learning outcomes
 
 By the end of the course, students should be able to:
@@ -42,6 +56,28 @@ Lectures, inquiry, notebook labs, peer discussion, progressive assignments, and 
 
 - **Build:** data pipeline → implementation → API/deployment → monitoring and fallback;
 - **Discover:** data diagnosis → statistical modeling → explanation/causality → impact and value.
+
+### Distinctive pedagogy
+
+1. **Question before data:** define the stakeholder, estimand, data-generating process, and failure conditions first;
+2. **Baseline before complexity:** every complex model faces a simple, interpretable, reproducible baseline;
+3. **Counterexample before confirmation:** use holdouts, negative controls, OOD tests, sensitivity analysis, and error slices to seek failure;
+4. **Three gates:** code correctness, statistical validity, and ethics/governance precede deployment value;
+5. **Two-track cross-check:** the Build artifact must run and the Discover claim must be falsifiable; and
+6. **Explain-back and transfer:** students explain agent suggestions and rebuild the method on unfamiliar data.
+
+### AI_Tutoring D0–D5 mechanism
+
+| Stage | Student responsibility | Tutor support | Advancement evidence |
+|---|---|---|---|
+| D0 Diagnose | Explain Python, math, probability, data, and domain concepts | Full examples and immediate correction | Prerequisite diagnosis and explain-back |
+| D1 Guided reproduction | Rerun and explain known data | Steps and schema/split/seed checks | Correct reproduction, boundaries, explanation |
+| D2 Guided application | Handle one material variation | Interfaces, milestones, validation checklist | Independent success under a new condition |
+| D3 Independent analysis | Select and compare baselines, models, and metrics | Socratic questions, counterexamples, evidence gaps | Errors, reproduction, and alternatives |
+| D4 Evaluate decisions | Resolve OOD, causal, ethical, and risk tensions | Review questions and stop conditions | Robustness, risk, and defended choice |
+| D5 Create and transfer | Rebuild the full loop in a new domain | Resources, safety, and review boundaries only | Reproducible creation, value, and defense |
+
+The Hint Budget moves from L0 Socratic questions and L1 evidence gaps to L2 method advice and L3 partial examples from a different task. A student attempt precedes every core hint; exhausted budgets and high-risk judgments escalate to a teacher or TA. Mastery depends on explainable execution, statistical validation, counterexamples, and transfer—not chat count, code volume, or model confidence.
 
 ## Assessment
 
@@ -78,4 +114,3 @@ Anonymous feedback, artifact quality, reproducibility, failure patterns, and tra
 <div class="notice"><strong>Offering information</strong>Dates, rooms, teaching assistants, office hours, deadlines, late policy, and exam rules are published for each course offering.</div>
 
 </div>
-

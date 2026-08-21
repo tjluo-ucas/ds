@@ -11,6 +11,10 @@ page_key: lectures
 
 <div class="content-shell" markdown="1">
 
+## 0. Disciplinary core: from data activity to defensible decisions
+
+Data Science is not a catalog of models. It is an accountable lifecycle: pose a testable question → understand data generation and governance → construct alternatives → evaluate uncertainty and scope → communicate evidence → act with human oversight. Every topic names its population, estimand, source, assumptions, validation protocol, and failure conditions.
+
 ## Foundation
 
 | Module | Central question | Representative methods | Required evidence |
@@ -46,9 +50,12 @@ page_key: lectures
 
 > Chapter number is not difficulty. Entry depends on mathematical, programming, experimental, and domain prerequisites—not a mechanical CH1→CH12 progression.
 
+## Codex collaboration boundary
+
+Codex may inspect data and repository structure, draft candidate pipelines, add tests, reproduce experiments, and review differences. An agent output is still a **hypothesis awaiting verification**. Data provenance, splits, execution results, statistical claims, causal identification, and deployment recommendations each require inspectable evidence; fluent explanation is not execution or fact.
+
 ## Common discussion standard
 
 For every topic: What is the evidence source? Which assumptions are used? What alternatives exist? Why this method? How is it verified? What did AI contribute? What remains a human responsibility? Which counterexample would overturn the claim?
 
 </div>
-

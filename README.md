@@ -1,8 +1,8 @@
 # Data Science bilingual course site
 
-Bilingual Jekyll site for `https://tjluo-ucas.github.io/ds/`, modeled on the structure of the UCAS Intelligent Software Engineering course site.
+Bilingual Jekyll site for [tjluo-ucas.github.io/ds](https://tjluo-ucas.github.io/ds/), modeled on the structure of the UCAS Intelligent Software Engineering course site.
 
-The target repository `tjluo-ucas/ds` did not exist when this site was prepared. Create it, push this directory to its `main` branch, and enable **Settings → Pages → Source: GitHub Actions** before expecting the public URL to work.
+The public site defines Data Science through the National Academies and ACM disciplinary frames, explains why coding agents do not remove data and inference challenges, and shows how problem-first pedagogy plus AI_Tutoring moves learners from D0 diagnosis to D5 creation and transfer. It also preserves the 13-week path, 11 assignments, evidence labs, assessment policy, and reproducible capstone in Chinese and English.
 
 See [DEPLOYMENT.md](DEPLOYMENT.md) for the manual setup, first-push commands, and public smoke checklist.
 

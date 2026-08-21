@@ -13,9 +13,14 @@ page_key: resources
 
 ## 课程与扩展材料
 
+- [National Academies: Data Science for Undergraduates](https://www.nationalacademies.org/read/25104/chapter/2)：数据活动、Data Acumen、伦理和跨学科课程框架；
+- [ACM Data Science Task Force](https://dstf.acm.org/)：数据科学计算能力与课程建议；
+- [OpenAI Developers / Codex](https://developers.openai.com/)：Codex的代码理解、构建、测试、修复与审查能力边界；
 - [Intelligent Software and Data Science](https://github.com/tiejianluo/Intelligent-Software-and-Data-Science)：高级实验扩展。仓库中的 solution 内容仅在教师授权范围内使用；
 - 本网站的[知识主题]({{ '/lectures/' | relative_url }})、[作业目录]({{ '/assignments/' | relative_url }})和[实验协议]({{ '/labs/' | relative_url }})；
 - 教师当学期发布的 Syllabus、Assessment Policy、Notebook 模板和数据许可说明。
+
+<div class="notice"><strong>阅读顺序</strong>先用 National Academies 与 ACM 建立“数据科学是什么”的完整框架，再用统计/机器学习教材和库文档学习方法，最后用真实数据、运行日志、统计检验和领域复核回答“结论为何可信”。Codex 文档说明 Agent 能做什么，不构成数据或结论正确的证据。</div>
 
 ## 推荐工具
 
@@ -54,5 +59,6 @@ page_key: resources
 
 提问时附上：目标、已经尝试的步骤、最小可复现输入、完整错误、环境版本和你对原因的判断。不要在公开 Issue 或聊天中发布学生身份、成绩、私有数据或 Secret。
 
-</div>
+<div class="notice"><strong>核验日期</strong>学科与 Codex 官方入口于2026-08-21核验。云资源、软件版本和平台政策可能变化，实验时必须重新检查。</div>
 
+</div>

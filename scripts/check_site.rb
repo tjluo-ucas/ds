@@ -76,6 +76,23 @@ end
   errors << "#{name}: expected DS-A1..DS-A11, found #{ids.length}" unless ids.length == 11
 end
 
+%w[index.md en/index.md].each do |name|
+  text = (ROOT / name).read
+  errors << "#{name}: missing National Academies disciplinary source" unless text.include?("nationalacademies.org")
+  errors << "#{name}: missing ACM disciplinary source" unless text.include?("dstf.acm.org")
+  errors << "#{name}: missing Codex capability boundary" unless text.include?("Codex")
+  errors << "#{name}: missing AI_Tutoring mechanism" unless text.include?("AI_Tutoring")
+  %w[D0 D1 D2 D3 D4 D5].each do |level|
+    errors << "#{name}: missing progression #{level}" unless text.include?(level)
+  end
+end
+
+%w[labs.md en/labs.md].each do |name|
+  text = (ROOT / name).read
+  errors << "#{name}: missing AI_Tutoring lab checkpoints" unless text.include?("AI_Tutoring")
+  errors << "#{name}: missing explain-back" unless text.match?(/Explain-back/i)
+end
+
 forbidden = /student-submited|MDMA_Solutions|四课程参考答案|(?:API_KEY|PASSWORD|SECRET)\s*=\s*\S+/
 source_files.each do |path|
   errors << "#{path.relative_path_from(ROOT)}: forbidden private/sensitive reference" if path.read.match?(forbidden)
@@ -88,6 +105,8 @@ if errors.empty?
   puts "site checks: PASS"
   puts "bilingual pages: #{pages.length}"
   puts "assignment IDs per locale: 11"
+  puts "disciplinary definition and Codex boundary: PASS"
+  puts "AI_Tutoring D0-D5 progression: PASS"
   exit 0
 end
 

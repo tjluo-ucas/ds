@@ -1,6 +1,6 @@
 ---
 title: "Course Overview"
-description: "A graduate Data Science course moving from data and models to worlds, decisions, value, and reproducible evidence."
+description: "A graduate Data Science course moving from questions, data, and models to trustworthy inference, responsible decisions, and real value."
 lang: en
 translation_url: /
 permalink: /en/
@@ -11,61 +11,57 @@ page_key: home
   <div class="hero-grid">
     <div>
       <p class="eyebrow">Graduate Data Science · UCAS</p>
-      <h1>Data Science<span>数据科学</span></h1>
-      <p class="lead">Separate signal from noise, build verifiable models, understand the structure of the real world, and turn prediction into responsible decisions and value.</p>
-      <div class="hero-actions">
-        <a class="button button-primary" href="{{ '/en/syllabus/' | relative_url }}">Read the syllabus</a>
-        <a class="button button-secondary" href="{{ '/en/assignments/' | relative_url }}">Explore assignments</a>
-      </div>
+      <h1>Data Science<span>is more than<br class="mobile-break">training models</span></h1>
+      <p class="lead">Data Science starts from a real question,<br class="mobile-break">uses data, statistics, and computing to build testable evidence,<br class="mobile-break">and turns uncertainty into responsible knowledge, decisions, and value.<br class="mobile-break">Codex accelerates code, experiments, and review;<br class="mobile-break">it does not decide whether the question is right, the data are trustworthy,<br class="mobile-break">the claim generalizes, or the action is responsible.</p>
+      <div class="hero-actions"><a class="button button-primary" href="{{ '/en/syllabus/' | relative_url }}">Read the syllabus</a><a class="button button-secondary" href="{{ '/en/labs/' | relative_url }}">Explore evidence labs</a></div>
     </div>
-    <div class="orbit" aria-label="Five-layer Data Science learning map">
-      <div class="orbit-core">Causal models<br>& real value</div>
-      <span class="orbit-node">Data</span>
-      <span class="orbit-node">Model</span>
-      <span class="orbit-node">World</span>
-      <span class="orbit-node">Decision</span>
-      <span class="orbit-node">Value</span>
-    </div>
+    <div class="orbit" aria-label="Data Science evidence loop"><div class="orbit-core">Evidence<br>before<br>decision</div><span class="orbit-node">Question</span><span class="orbit-node">Data</span><span class="orbit-node">Model</span><span class="orbit-node">Inference</span><span class="orbit-node">Decision</span></div>
   </div>
 </section>
 
-<div class="stat-strip">
-  <div class="stats">
-    <div class="stat"><strong>13</strong><span>week learning arc</span></div>
-    <div class="stat"><strong>11</strong><span>progressive assignments</span></div>
-    <div class="stat"><strong>5</strong><span>knowledge layers</span></div>
-    <div class="stat"><strong>1</strong><span>reproducible capstone</span></div>
-  </div>
-</div>
+<div class="stat-strip"><div class="stats"><div class="stat"><strong>7</strong><span>data activities</span></div><div class="stat"><strong>5</strong><span>evidence layers</span></div><div class="stat"><strong>D0–D5</strong><span>mastery progression</span></div><div class="stat"><strong>Evidence</strong><span>before claims</span></div></div></div>
 
 <section class="section">
-  <div class="section-head"><p class="kicker">Learning map</p><h2>Build an evidence chain, not merely a model</h2><p>The course connects statistical inference, machine learning, causal analysis, decision making, and engineering reproducibility across five dependent layers.</p></div>
+  <div class="section-head"><p class="kicker">Authoritative definition</p><h2>What is Data Science as a discipline?</h2><p>The <a href="https://www.nationalacademies.org/read/25104/chapter/2">National Academies consensus report</a> describes Data Science as activities spanning data collection, storage, integration, analysis, inference, communication, and ethics. The <a href="https://dstf.acm.org/">ACM Data Science Task Force</a> further places computing contributions inside a broader interdisciplinary curriculum.</p></div>
   <div class="layer-grid">
-    <article class="layer-card"><span class="number">01</span><h3>Data</h3><p>Sampling, measurement, quality, missingness, bias, lineage, and privacy.</p></article>
-    <article class="layer-card"><span class="number">02</span><h3>Model</h3><p>Statistical learning, prediction, calibration, generalization, and evaluation.</p></article>
-    <article class="layer-card"><span class="number">03</span><h3>World</h3><p>Distribution shift, confounding, causal structure, counterfactuals, and world models.</p></article>
-    <article class="layer-card"><span class="number">04</span><h3>Decision</h3><p>Utility, risk, constraints, intervention, thresholds, and human oversight.</p></article>
-    <article class="layer-card"><span class="number">05</span><h3>Value</h3><p>Impact, KPIs, cost, externalities, and a sustainable DecisionOps loop.</p></article>
+    <article class="layer-card"><span class="number">01</span><h3>Question</h3><p>Define the stakeholder, objective, population, estimand, constraints, and falsifiable hypothesis.</p></article>
+    <article class="layer-card"><span class="number">02</span><h3>Data</h3><p>Understand generation, sampling, measurement, governance, lineage, quality, bias, and privacy.</p></article>
+    <article class="layer-card"><span class="number">03</span><h3>Model</h3><p>Use statistics and computing to represent patterns, uncertainty, mechanisms, and alternatives.</p></article>
+    <article class="layer-card"><span class="number">04</span><h3>Inference</h3><p>Test generalization, effects, causal assumptions, robustness, and applicability boundaries.</p></article>
+    <article class="layer-card"><span class="number">05</span><h3>Decision</h3><p>Communicate evidence and incorporate risk, cost, ethics, and human accountability into action.</p></article>
   </div>
+  <div class="notice"><strong>Boundary</strong>Machine learning is an important Data Science tool. High accuracy, attractive charts, or a runnable notebook alone cannot establish trustworthy data, valid inference, or a sound decision.</div>
 </section>
 
 <section class="section">
-  <div class="section-head"><p class="kicker">Two complementary tracks</p><h2>Build intelligent systems and discover real mechanisms</h2><p>Engineering and scientific tracks cross-check the same problem: the system must work, and its claims must remain defensible.</p></div>
-  <div class="track-grid">
-    <article class="track-card"><span class="tag">Build track</span><h3>Intelligent software</h3><p>Move from prototypes, pipelines, and APIs to stable, testable, and evolvable systems.</p><ul><li>Executable notebooks and service contracts</li><li>Automated tests, versions, and environments</li><li>Monitoring, fallback, and operational evidence</li></ul></article>
-    <article class="track-card"><span class="tag">Discover track</span><h3>Data-science discovery</h3><p>Move from cleaning and modeling to uncertainty, causal identification, and falsifiable claims.</p><ul><li>Data-generating processes and hypotheses</li><li>Baselines, error analysis, and calibration</li><li>Interventions, counterfactuals, and boundaries</li></ul></article>
-  </div>
-</section>
-
-<section class="section">
-  <div class="section-head"><p class="kicker">Course evidence</p><h2>Every important claim must be inspectable</h2></div>
+  <div class="section-head"><p class="kicker">Agent-era difficulty</p><h2>Why is it still hard with Codex?</h2><p><a href="https://developers.openai.com/">Official OpenAI documentation</a> says Codex can understand codebases, build and test features, fix bugs, and review changes. That reduces implementation cost; it does not remove uncertainty from the real world, the data-generating process, or inferential assumptions.</p></div>
   <div class="card-grid">
-    <article class="info-card"><span class="tag">Reproducibility</span><h3>Reproducible experiments</h3><p>Freeze data splits, seeds, dependencies, and metrics; retain raw results, environments, and failures.</p></article>
-    <article class="info-card"><span class="tag">Responsible AI</span><h3>Responsible AI collaboration</h3><p>AI may assist investigation, explanation, and verification, but students disclose its use and remain accountable.</p></article>
-    <article class="info-card"><span class="tag">Uncertainty</span><h3>Beyond accuracy</h3><p>Evaluate calibration, OOD behavior, abstention, fairness, and human escalation—not one headline score.</p></article>
-    <article class="info-card"><span class="tag">Transfer</span><h3>Transfer to unfamiliar problems</h3><p>The capstone applies course methods to real scientific or engineering data and states risks, limits, and value.</p></article>
+    <article class="info-card"><span class="tag">Problem</span><h3>The question may be wrong</h3><p>A prediction target may not be an action target, and an observed label may be a poor proxy. An agent cannot define stakeholder value for them.</p></article>
+    <article class="info-card"><span class="tag">Data</span><h3>Data are not the world</h3><p>Sampling, missingness, measurement error, leakage, and historical bias do not vanish when code is generated faster.</p></article>
+    <article class="info-card"><span class="tag">Inference</span><h3>Association is not intervention</h3><p>Cross-validation does not identify causal effects. Confounding, selection, and identification assumptions must be explicit and challenged.</p></article>
+    <article class="info-card"><span class="tag">Deployment</span><h3>An offline score is not value</h3><p>Shift, calibration, fairness, privacy, operating cost, and feedback loops require continuing real-world evidence.</p></article>
   </div>
 </section>
 
-<section class="section"><div class="callout"><div><h2>Start with a testable hypothesis</h2><p>Explore the 13-week path, 11 assignments, experimental protocol, and capstone evidence.</p></div><a class="button button-primary" href="{{ '/en/schedule/' | relative_url }}">View the schedule</a></div></section>
+<section class="section">
+  <div class="section-head"><p class="kicker">Our pedagogy</p><h2>Tools answer to questions; claims answer to evidence</h2><p>Build and Discover remain complementary tracks, cross-checking engineering artifacts and scientific claims under one reproducibility protocol.</p></div>
+  <div class="track-grid">
+    <article class="track-card"><span class="tag">Reasoning loop</span><h3>Question before data; baseline before complexity</h3><ul><li>State the question, estimand, data-generating graph, and failure conditions first</li><li>Build a simple, interpretable, reproducible baseline first</li><li>Seek failure through holdouts, counterexamples, OOD tests, and sensitivity analysis</li></ul></article>
+    <article class="track-card"><span class="tag">Evidence loop</span><h3>Predict—execute—explain—transfer</h3><ul><li>Students predict outcomes and risks before running notebooks</li><li>Correctness, statistical validity, and ethics gates precede model ranking</li><li>Explain-back and transfer to new data prove more than copied agent output</li></ul></article>
+  </div>
+</section>
 
+<section class="section">
+  <div class="section-head"><p class="kicker">AI_Tutoring</p><h2>Novice to expert: less scaffolding, stronger evidence</h2><p>AI_Tutoring does not infer mastery from chat count, lines of code, or model confidence. Progress depends on prerequisites, independent attempts, reproducible experiments, counterexamples, and transfer evidence.</p></div>
+  <div class="card-grid">
+    <article class="info-card"><span class="tag">D0 · Diagnose</span><h3>Diagnose prerequisites</h3><p>Check Python, mathematics, probability, data literacy, and domain concepts through explain-back.</p></article>
+    <article class="info-card"><span class="tag">D1 · Reproduce</span><h3>Guided reproduction</h3><p>Run a complete example on known data; verify environment, schema, split, seed, and interpretation.</p></article>
+    <article class="info-card"><span class="tag">D2 · Apply</span><h3>Guided application</h3><p>Change one material condition while the Tutor supplies only interfaces, milestones, and checks.</p></article>
+    <article class="info-card"><span class="tag">D3 · Analyze</span><h3>Independent analysis</h3><p>Select baselines, models, and metrics; compare alternatives with error and reproducibility evidence.</p></article>
+    <article class="info-card"><span class="tag">D4 · Evaluate</span><h3>Evaluate decisions</h3><p>Resolve OOD, calibration, causal, ethical, and risk tensions with stop and escalation conditions.</p></article>
+    <article class="info-card"><span class="tag">D5 · Transfer</span><h3>Create and transfer</h3><p>Rebuild the question–data–model–inference–decision loop in a new domain and defend it.</p></article>
+  </div>
+  <div class="notice"><strong>The Tutor is not an autopilot</strong>Students submit an attempt before a core hint. The Hint Budget moves from Socratic questions toward method advice without releasing the same-task answer. Conflicting evidence, exhausted hints, and high-risk decisions escalate to a teacher or TA.</div>
+</section>
+
+<section class="section"><div class="callout"><div><h2>Start with the first testable question</h2><p>Enter the 13-week path, 11 assignments, evidence labs, and reproducible capstone.</p></div><a class="button button-primary" href="{{ '/en/schedule/' | relative_url }}">View the schedule</a></div></section>
