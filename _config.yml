@@ -1,0 +1,39 @@
+title: Data Science
+title_zh: 数据科学
+title_en: Data Science
+tagline_zh: 从数据到模型，从世界到决策与价值
+tagline_en: From data and models to worlds, decisions, and value
+description: Bilingual Data Science course at the University of Chinese Academy of Sciences
+url: "https://tjluo-ucas.github.io"
+baseurl: "/ds"
+repository: tjluo-ucas/ds
+github_url: https://github.com/tiejianluo/Intelligent-Software-and-Data-Science
+instructor_url: https://github.com/tiejianluo
+author: Tiejian Luo
+instructor_zh: 罗铁坚
+instructor_en: Tiejian Luo
+school_zh: 中国科学院大学
+school_en: University of Chinese Academy of Sciences
+department_zh: 计算机科学与技术学院
+department_en: School of Computer Science and Technology
+email: tjluo@ucas.ac.cn
+default_lang: zh-CN
+timezone: Asia/Shanghai
+markdown: kramdown
+permalink: pretty
+exclude:
+  - README.md
+  - DEPLOYMENT.md
+  - Gemfile
+  - Gemfile.lock
+  - scripts
+  - .github
+  - .bundle
+  - _site
+  - vendor
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+      lang: zh-CN
