@@ -22,7 +22,7 @@ page_key: home
   </div>
 </section>
 
-<div class="stat-strip"><div class="stats"><div class="stat"><strong>7</strong><span>完整数据活动</span></div><div class="stat"><strong>5</strong><span>层证据地图</span></div><div class="stat"><strong>D0–D5</strong><span>能力递进</span></div><div class="stat"><strong>Evidence</strong><span>先于结论</span></div></div></div>
+<div class="stat-strip"><div class="stats"><div class="stat"><strong>6</strong><span>计分任务</span></div><div class="stat"><strong>15</strong><span>周学习路径</span></div><div class="stat"><strong>D0–D5</strong><span>能力递进</span></div><div class="stat"><strong>Evidence</strong><span>先于结论</span></div></div></div>
 
 <section class="section">
   <div class="section-head"><p class="kicker">Authoritative definition</p><h2>学科中的 Data Science 是什么？</h2><p><a href="https://www.nationalacademies.org/read/25104/chapter/2">美国国家科学院共识报告</a>把数据科学界定为覆盖数据收集、存储、整合、分析、推断、沟通与伦理的广泛活动；<a href="https://dstf.acm.org/">ACM Data Science Task Force</a>进一步强调计算能力必须与其他学科共同构成课程。</p></div>
@@ -67,4 +67,4 @@ page_key: home
   <div class="notice"><strong>Tutor 不是 Autopilot</strong>每次核心提示前先要求学生提交已有尝试；Hint Budget 从苏格拉底追问逐步到方法建议，不直接释放同题答案。证据冲突、提示耗尽或高风险决策进入教师/TA审核。</div>
 </section>
 
-<section class="section"><div class="callout"><div><h2>从第一个可检验问题开始</h2><p>进入13周学习路径、11次作业、证据型实验和可复现 Capstone。</p></div><a class="button button-primary" href="{{ '/schedule/' | relative_url }}">进入课程安排</a></div></section>
+<section class="section"><div class="callout"><div><h2>从第一个可检验问题开始</h2><p>进入 15 周学习路径、6 次计分任务、证据型实验和可复现 Capstone。</p></div><a class="button button-primary" href="{{ '/schedule/' | relative_url }}">进入课程安排</a></div></section>

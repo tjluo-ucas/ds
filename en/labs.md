@@ -17,6 +17,8 @@ Every lab records the problem and hypothesis, input/data version, baseline, inde
 
 ## Representative labs
 
+The six protocols support DS-A1 through DS-A6 and map one-to-one to the assessed tasks in Weeks 2, 4, 6, 8, 10, and 12. A lab page supplies method and evidence guidance; it is not an additional graded item beyond the six tasks.
+
 | Lab | Experiment | Core work | Evidence gate |
 |---|---|---|---|
 | DS-L1 | Data health diagnosis | Schema, missingness, duplicates, range, bias, drift | Data card, assertions, before/after comparison |
@@ -51,7 +53,7 @@ Compare sequential, binary, hash, and BST search across:
 - time, operation count, memory, and theoretical complexity; and
 - measurement noise, constants, cache behavior, and build cost.
 
-Suggested submission: source, reproducible test data, run README, plots, and an 8–12 page report. Reference rubric: implementation 30%, test completeness 25%, analysis 25%, report 20%.
+Suggested submission: source, reproducible test data, a run README, plots, and a concise report. When submitted as the corresponding assessed task, the common 5-point rubric on the [Assignments]({{ '/en/assignments/' | relative_url }}) page applies; there is no second weighting scheme.
 
 ## Compute environments
 

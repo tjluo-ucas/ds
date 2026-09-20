@@ -88,7 +88,7 @@ The Hint Budget moves from L0 Socratic questions and L1 evidence gaps to L2 meth
 | Capstone | 40% | Proposal, progress report, final report, presentation, and reproducible repository |
 | Participation | 10% | Discussion, questions, experiments, and actionable peer feedback |
 
-> The materials contain eleven assignments for Weeks 2–12, while the syllabus describes homework as bi-weekly. The instructor's offering-specific Assessment Policy determines which assignments count, how they are grouped, and their weights.
+The Fall 2026 offering has exactly six assessed tasks, released in Weeks 2, 4, 6, 8, 10, and 12. Each task is worth 5 points; the 30 points map directly to Homework 30%. The [Assignments]({{ '/en/assignments/' | relative_url }}) and [Schedule]({{ '/en/schedule/' | relative_url }}) pages are authoritative for task names, release times, and deadlines. There are no additional independently graded assignments.
 
 ## Common assignment requirements
 
@@ -96,12 +96,12 @@ The Hint Budget moves from L0 Socratic questions and L1 evidence gaps to L2 meth
 - freeze and report random seeds, dependency versions, data sources, and licenses;
 - show essential derivations, baselines, metric choices, and error analysis;
 - retain failed runs, negative results, and evidence that challenges the hypothesis;
-- common 10-point rubric: correctness 5, clarity 3, reproducibility and format 2; and
+- use the common 5-point rubric: problem and method 1.25, execution and reproducibility 1.50, analysis and counterexample 1.25, and communication, reflection, and AI verification 1.00; and
 - use personal or sensitive data only when explicitly approved.
 
 ## Midterm
 
-The existing template places a 90-minute closed-book midterm in Week 7 and permits one A4 cheat sheet. Conceptual questions cover probability/statistics, Bayesian and frequentist views, and regularization. Applied work emphasizes from-scratch implementation, cross-validation, classification metrics, and threshold reasoning. The active offering notice is authoritative.
+The Midterm is in Week 7 (28 October 2026) and contributes 20% of the final grade. It is a 90-minute closed-book examination with one A4 cheat sheet. Conceptual questions cover probability/statistics, Bayesian and frequentist views, and regularization; applied work emphasizes from-scratch implementation, cross-validation, classification metrics, and threshold reasoning. A room or delivery-mode change does not alter the published weight and must be announced to the whole class on the platform.
 
 ## AI and academic integrity
 
@@ -111,6 +111,6 @@ AI may help explain concepts, inspect code, propose alternatives, generate candi
 
 Anonymous feedback, artifact quality, reproducibility, failure patterns, and transfer performance guide improvement. Contact the instructor early if materials, mathematical notation, charts, or the lab environment create an accessibility barrier; an alternative presentation does not lower the learning outcome.
 
-<div class="notice"><strong>Offering information</strong>Dates, rooms, teaching assistants, office hours, deadlines, late policy, and exam rules are published for each course offering.</div>
+<div class="notice"><strong>Single Fall 2026 timetable</strong>The course runs for 15 weeks on Wednesdays, 14:00–16:30 (Asia/Shanghai), from 16 September through 23 December 2026. Each of the six tasks is released at 16:30 after the designated class and is due exactly seven days later at 16:30. A photo of the handwritten weekly lecture note is due within 24 hours, by Thursday 16:30. Platform timestamps are authoritative.</div>
 
 </div>

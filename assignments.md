@@ -1,55 +1,53 @@
 ---
 title: "课程作业"
-description: "Data Science Week 2–12 的11次递进作业及统一提交要求。"
+description: "Data Science 2026秋季学期六次计分任务、时间和统一评分规则。"
 lang: zh-CN
 translation_url: /en/assignments/
 permalink: /assignments/
 page_key: assignments
 ---
 
-<section class="page-hero"><div class="page-hero-inner"><p class="eyebrow">11 progressive assignments</p><h1>课程作业</h1><p>作业从可解释的数据问题出发，逐步提高模型、实验和证据要求；公开页面不提供教师答案或隐藏测试。</p></div></section>
+<section class="page-hero"><div class="page-hero-inner"><p class="eyebrow">6 assessed evidence tasks · 30 points</p><h1>课程作业与实验</h1><p>六次任务把数据、推断、模型和决策主张转化为可检查、可复现和可反驳的证据。</p></div></section>
 
 <div class="content-shell" markdown="1">
 
-## 作业目录
+## 唯一计分任务目录
 
-| ID | 周次 | 主题 | 核心任务与 Evidence |
-|---|---:|---|---|
-| DS-A1 | 2 | Intro & Motivation | 领域数据、变量/目标、噪声/偏差、环境规格、EDA、可检验假设 |
-| DS-A2 | 3 | Probability Foundations | 分布推导、Bernoulli 模拟与收敛、Bayesian 诊断解释 |
-| DS-A3 | 4 | Statistics for Data Science | t-test 假设、Bootstrap CI、A/B Test、Power 与限制 |
-| DS-A4 | 5 | Data Wrangling & Visualization | 缺失/重复/类型清洗、特征工程、可解释图表与误导检查 |
-| DS-A5 | 6 | Regression Models | OLS 推导与失效条件、Ridge/Lasso、Logistic 指标 |
-| DS-A6 | 7 | Classification & Clustering | kNN/Tree CV与校准、K-means from scratch、Spectral comparison |
-| DS-A7 | 8 | Neural Networks Basics | Perceptron、MLP/Backprop、Dropout 与 L2 对照 |
-| DS-A8 | 9 | Deep Learning for Science | 科学图像 CNN + Explainability、Sequence model 与 Baseline |
-| DS-A9 | 10 | Time Series & Forecasting | ARIMA 诊断、LSTM/Transformer、Rolling-origin evaluation |
-| DS-A10 | 11 | Dimensionality Reduction & Feature Learning | PCA/重建、Autoencoder、t-SNE/UMAP 敏感性 |
-| DS-A11 | 12 | Uncertainty, Robustness & Causality | Calibration、ATE、Fairness、Data card 与 Model card |
+| ID | 发布与截止（北京时间） | 任务 | 核心证据 |
+|---|---|---|---|
+| DS-A1 | W2 09-23 16:30 → 09-30 16:30 | 数据来源与测量审计 | 来源、许可、生成过程、Schema、缺失/偏差、Data Card |
+| DS-A2 | W4 10-07 16:30 → 10-14 16:30 | 推断与不确定性Notebook | 假设、模拟/Bootstrap、区间、Power、限制与反例 |
+| DS-A3 | W6 10-21 16:30 → 10-28 16:30 | 回归基线与诊断 | 可解释Baseline、Split、正则化、残差、误差切片 |
+| DS-A4 | W8 11-04 16:30 → 11-11 16:30 | 模型比较与校准实验 | 冻结数据划分、多个模型、校准、统计/实践意义 |
+| DS-A5 | W10 11-18 16:30 → 11-25 16:30 | 时间序列滚动评价实验 | 时间顺序、Rolling-origin、泄漏检查、漂移与失败案例 |
+| DS-A6 | W12 12-02 16:30 → 12-09 16:30 | 因果主张与敏感性分析 | DAG、Estimand、识别假设、替代解释、Sensitivity/Refutation |
 
-## 每次作业都必须提交
+每次满分5分，六次合计30分，即总评 Homework 30%。本表列出的六项是本学期全部独立计分作业。
 
-1. 自顶向下可运行的 `.ipynb`；
-2. 由同一 Notebook 导出的 PDF；
-3. `requirements.txt`、`environment.yml` 或等价环境说明；
-4. 数据来源、许可、split、seed 和预处理说明；
-5. Baseline、主要指标、原始结果和误差/失败分析；
-6. AI 使用记录：工具、任务、重要建议、采纳/拒绝与独立验证；
-7. 局限、伦理风险和下一步可证伪实验。
+## 每次提交的最低要求
 
-## 通用 Rubric
+1. 可从头运行的Notebook或等价代码、导出的PDF和复现命令；
+2. 数据来源、许可、版本、Split、Seed、依赖和运行环境；
+3. 问题、假设、Baseline、指标、真实输出和误差/失败分析；
+4. 至少一个能够挑战当前结论的反例、敏感性检查或适用边界；
+5. AI使用记录：工具、任务、关键建议、采纳/拒绝理由和独立核验；
+6. 不得伪造运行结果、数据、来源或用户，不得提交无法解释的生成内容。
 
-| 维度 | 分值 | 判定重点 |
+## 每次5分统一量规
+
+| 维度 | 分值 | 达标证据 |
 |---|---:|---|
-| 正确性 | 5 | 方法、实现、数值、指标和结论一致；边界情况被检查 |
-| 解释清晰 | 3 | 假设、选择、图表、误差、限制和反例可理解 |
-| 复现与格式 | 2 | 干净环境可运行；文件、依赖、seed、数据与输出完整 |
+| 问题、方法与假设 | 1.25 | 问题可检验，方法与数据生成过程匹配，假设明确 |
+| 执行与可复现证据 | 1.50 | 环境、数据、代码和真实输出可由他人复现 |
+| 分析、反例与边界 | 1.25 | 解释误差和不确定性，主动寻找失效条件 |
+| 表达、反思与AI核验 | 1.00 | 结论清楚，AI贡献可追踪并经过独立验证 |
+| **合计** | **5.00** |  |
 
-## 提示与答案边界
+## 截止、反馈与答案边界
 
-在截止日前，教师和 AI Tutor 可以澄清目标、指出证据缺口、提供策略或独立小例子，但不会发布与题目高度同构的完整实现、教师答案或隐藏测试。达到提示上限后应联系教师或助教，而不是自动释放答案。
-
-<div class="notice"><strong>计分政策待当学期确认</strong>现有材料包含11次作业，但 Homework 计分方式由教师发布的 Assessment Policy 决定。多交不自动替换已选作业。</div>
+- 截止时间以 `learn.spaiq.ai` 的北京时间为准；每次提交窗口精确为7天。
+- 截止后只有教师在平台授予迟交许可时才能补交；补交不改变原始截止记录。
+- 教师和AI Tutor可澄清目标、指出证据缺口、给出策略或不同问题的小例子，但不会释放同题完整答案、教师解答或隐藏测试。
+- 平台保存的提交版本、反馈、AI点评和教师已发布点评构成正式过程记录。
 
 </div>
-

@@ -1,51 +1,55 @@
 ---
 title: "课程安排"
-description: "Data Science 13周课程主题、作业、实验与 Capstone 里程碑。"
+description: "Data Science 2026 秋季学期15周课程、六次计分任务和项目里程碑。"
 lang: zh-CN
 translation_url: /en/schedule/
 permalink: /schedule/
 page_key: schedule
 ---
 
-<section class="page-hero"><div class="page-hero-inner"><p class="eyebrow">13-week learning arc</p><h1>课程安排</h1><p>从问题与数据出发，逐步进入统计学习、深度模型、不确定性、因果与价值闭环。</p></div></section>
+<section class="page-hero"><div class="page-hero-inner"><p class="eyebrow">Fall 2026 · 15-week learning arc</p><h1>课程安排</h1><p>每周三14:00–16:30上课，从问题与数据出发，逐步进入统计学习、不确定性、因果、决策和可复现项目。</p></div></section>
 
 <div class="content-shell" markdown="1">
 
-## 课程主线
+## 2026秋季学期统一时间规则
 
-| 周次 | 主题 | 实践与 Evidence | 里程碑 |
+- 上课日期：2026年9月16日至12月23日，每周三14:00–16:30，共15周；
+- 本周听课笔记：每次课后24小时内提交，即周四16:30前；
+- 六次计分任务：第2、4、6、8、10、12周课堂结束时发布，精确7天后截止；
+- 每次任务满分5分，六次合计30分，并按课程总评的Homework 30%计入；
+- 平台 `learn.spaiq.ai` 显示的北京时间戳是提交与迟交判断的唯一依据。
+
+## 15周授课计划
+
+| 周次 | 日期 | 主题与课堂证据 | 计分任务或里程碑 |
 |---:|---|---|---|
-| 1 | 课程导论：什么是数据科学 | 领域问题、变量、目标、Signal/Noise、环境检查 | Capstone 方向讨论 |
-| 2 | 数据、测量与探索 | Data card、EDA、缺失/偏差、可检验假设 | DS-A1 |
-| 3 | 概率基础 | 分布、模拟、收敛、Bayesian 更新 | DS-A2 |
-| 4 | 统计推断 | t-test、Bootstrap CI、A/B Test、Power | DS-A3 |
-| 5 | 数据整理与可视化 | 清洗、特征、图表、叙事和误导诊断 | DS-A4；Proposal |
-| 6 | Regression | OLS、正则化、Logistic Regression、指标 | DS-A5 |
-| 7 | Classification & Clustering | kNN/Tree、CV、校准、K-means、Spectral | DS-A6；Midterm |
-| 8 | Neural Networks | Perceptron、MLP、Backprop、Dropout、L2 | DS-A7；Progress |
-| 9 | Deep Learning for Science | CNN、Sequence Model、Explainability、Baseline | DS-A8 |
-| 10 | Time Series | ARIMA、LSTM/Transformer、Rolling-origin | DS-A9 |
-| 11 | Representation Learning | PCA、Autoencoder、t-SNE/UMAP 与敏感性 | DS-A10 |
-| 12 | Uncertainty, Robustness & Causality | Calibration、OOD、ATE、Fairness、Model card | DS-A11 |
-| 13 | Decision & Value | Risk、Abstention、DecisionOps、影响与 ROI | Final report & presentation |
+| 1 | 09-16 | 学习准备与问题—数据—决策链 | 不计分准备测试；Capstone方向讨论 |
+| 2 | 09-23 | 测量、数据来源与数据生成过程 | **DS-A1** 16:30发布，09-30 16:30截止 |
+| 3 | 09-30 | 概率、模拟与不确定性 | A1证据反馈 |
+| 4 | 10-07 | 统计推断、假设检验与区间 | **DS-A2** 16:30发布，10-14 16:30截止 |
+| 5 | 10-14 | 数据健康、EDA与可视化 | Capstone Proposal |
+| 6 | 10-21 | 回归与可解释基线 | **DS-A3** 16:30发布，10-28 16:30截止 |
+| 7 | 10-28 | 分类、聚类与评价 | Midterm（20%） |
+| 8 | 11-04 | 神经网络与表示学习 | **DS-A4** 16:30发布，11-11 16:30截止；Progress |
+| 9 | 11-11 | 科学图像与序列实验 | 模型误差与反例审查 |
+| 10 | 11-18 | 时间序列与滚动评价 | **DS-A5** 16:30发布，11-25 16:30截止 |
+| 11 | 11-25 | 校准、OOD与选择性预测 | 风险阈值与人工接管审查 |
+| 12 | 12-02 | 相关、因果、干预与敏感性 | **DS-A6** 16:30发布，12-09 16:30截止 |
+| 13 | 12-09 | 公平、伦理与负责任决策 | Model/Data Card审查 |
+| 14 | 12-16 | Capstone证据与复现审查 | Final RC；跨组复现 |
+| 15 | 12-23 | 期末项目检查与答辩 | Final report、仓库和展示 |
 
-> 这是依据正式13周大纲和 Week 2–12 作业材料形成的公开学习路径。实际日期、合并主题、作业计分方式和考试安排以当学期通知为准。
+## Capstone节奏
 
-## Capstone 节奏
-
-| 阶段 | 建议时间 | 最低交付 |
+| 阶段 | 时间 | 最低交付 |
 |---|---:|---|
 | Proposal | Week 5 | 2页：问题、相关工作、数据许可、伦理、成功指标 |
 | Progress | Week 8 | 3页：EDA、Baseline、协议、风险、Learning curve、Ablation |
-| Final | Week 13 | 8–10页报告、10分钟展示、可复现仓库 |
+| Release candidate | Week 14 | 冻结版本、复现说明、已知风险与跨组检查 |
+| Final | Week 15 | 8–10页报告、10分钟展示、可复现仓库 |
 
 ## 每周学习循环
 
-1. 课前阅读问题与关键概念；
-2. 课堂提出假设、反例和评价标准；
-3. Notebook 中实现并记录真实结果；
-4. 使用 Oracle、Baseline、误差分析或同伴反馈检查；
-5. 提交解释、限制、AI 使用记录和下一步实验。
+课前阅读与问题 → 课堂假设、反例和实验 → 当日整理手写笔记并拍照 → 24小时内提交 → 完成当周证据任务 → 教师与AI反馈 → 在新数据或新条件下复核。
 
 </div>
-

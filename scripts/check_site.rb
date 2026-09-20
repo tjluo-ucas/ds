@@ -72,8 +72,27 @@ end
 
 %w[assignments.md en/assignments.md].each do |name|
   text = (ROOT / name).read
-  ids = text.scan(/DS-A(?:[1-9]|1[01])\b/).uniq
-  errors << "#{name}: expected DS-A1..DS-A11, found #{ids.length}" unless ids.length == 11
+  ids = text.scan(/DS-A[1-9]\b/).uniq.sort
+  expected = (1..6).map { |number| "DS-A#{number}" }
+  errors << "#{name}: expected exactly DS-A1..DS-A6, found #{ids.join(', ')}" unless ids == expected
+end
+
+{
+  "schedule.md" => ["2026年9月16日", "12月23日", "09-23", "12-09"],
+  "en/schedule.md" => ["16 Sep", "23 Dec", "23 Sep", "9 Dec"]
+}.each do |name, required|
+  text = (ROOT / name).read
+  required.each do |value|
+    errors << "#{name}: missing authoritative Fall 2026 date #{value}" unless text.include?(value)
+  end
+  errors << "#{name}: must state 15 weeks" unless text.match?(/(?:15\s*周|15-week|fifteen weeks?)/i)
+  errors << "#{name}: must state the seven-day task window" unless text.match?(/(?:7天|七天|seven days)/i)
+end
+
+core_policy_files = %w[index.md en/index.md syllabus.md en/syllabus.md schedule.md en/schedule.md assignments.md en/assignments.md labs.md en/labs.md]
+stale_policy = /13-week|13周|11 assignments|11次|eleven assignments|DS-A(?:7|8|9|10|11)\b/i
+core_policy_files.each do |name|
+  errors << "#{name}: contains a superseded schedule or assignment policy" if (ROOT / name).read.match?(stale_policy)
 end
 
 %w[index.md en/index.md].each do |name|
@@ -104,7 +123,8 @@ errors << "assets/css/main.css: unbalanced braces" unless css.count("{") == css.
 if errors.empty?
   puts "site checks: PASS"
   puts "bilingual pages: #{pages.length}"
-  puts "assignment IDs per locale: 11"
+  puts "assignment IDs per locale: 6"
+  puts "Fall 2026 schedule consistency: PASS"
   puts "disciplinary definition and Codex boundary: PASS"
   puts "AI_Tutoring D0-D5 progression: PASS"
   exit 0

@@ -1,55 +1,53 @@
 ---
 title: "Assignments"
-description: "Eleven progressive Data Science assignments for Weeks 2–12 and their common evidence requirements."
+description: "The six Fall 2026 assessed Data Science tasks, dates, and common five-point rubric."
 lang: en
 translation_url: /assignments/
 permalink: /en/assignments/
 page_key: assignments
 ---
 
-<section class="page-hero"><div class="page-hero-inner"><p class="eyebrow">11 progressive assignments</p><h1>Assignments</h1><p>Assignments begin with interpretable data questions and progressively raise the modeling, experimentation, and evidence burden. Instructor solutions and hidden tests are not public.</p></div></section>
+<section class="page-hero"><div class="page-hero-inner"><p class="eyebrow">6 assessed evidence tasks · 30 points</p><h1>Assignments and labs</h1><p>Six tasks turn claims about data, inference, models, and decisions into inspectable, reproducible, falsifiable evidence.</p></div></section>
 
 <div class="content-shell" markdown="1">
 
-## Assignment catalog
+## Authoritative assessed-task catalog
 
-| ID | Week | Topic | Core work and evidence |
-|---|---:|---|---|
-| DS-A1 | 2 | Intro and Motivation | Domain data, variables/target, noise/bias, environment, EDA, testable hypothesis |
-| DS-A2 | 3 | Probability Foundations | Distribution derivation, Bernoulli simulation/convergence, Bayesian diagnosis |
-| DS-A3 | 4 | Statistics for Data Science | t-test assumptions, bootstrap CI, A/B test, power, limitations |
-| DS-A4 | 5 | Data Wrangling and Visualization | Missing/duplicate/type cleaning, features, explanatory graphics, misleading-chart check |
-| DS-A5 | 6 | Regression Models | OLS derivation/failure conditions, ridge/lasso, logistic metrics |
-| DS-A6 | 7 | Classification and Clustering | kNN/tree CV and calibration, K-means from scratch, spectral comparison |
-| DS-A7 | 8 | Neural Networks Basics | Perceptron, MLP/backprop, dropout and L2 comparison |
-| DS-A8 | 9 | Deep Learning for Science | Scientific-image CNN and explainability; sequence model and baseline |
-| DS-A9 | 10 | Time Series and Forecasting | ARIMA diagnosis, LSTM/Transformer, rolling-origin evaluation |
-| DS-A10 | 11 | Dimensionality Reduction and Feature Learning | PCA/reconstruction, autoencoder, t-SNE/UMAP sensitivity |
-| DS-A11 | 12 | Uncertainty, Robustness and Causality | Calibration, ATE, fairness, data card and model card |
+| ID | Release and deadline (Asia/Shanghai) | Task | Core evidence |
+|---|---|---|---|
+| DS-A1 | W2 23 Sep 16:30 → 30 Sep 16:30 | Data provenance and measurement audit | Source, license, generation process, schema, missingness/bias, Data Card |
+| DS-A2 | W4 7 Oct 16:30 → 14 Oct 16:30 | Inference and uncertainty notebook | Assumptions, simulation/bootstrap, interval, power, limits, counterexample |
+| DS-A3 | W6 21 Oct 16:30 → 28 Oct 16:30 | Regression baseline and diagnostics | Interpretable baseline, split, regularization, residuals, error slices |
+| DS-A4 | W8 4 Nov 16:30 → 11 Nov 16:30 | Model comparison and calibration lab | Frozen split, alternatives, calibration, statistical/practical meaning |
+| DS-A5 | W10 18 Nov 16:30 → 25 Nov 16:30 | Time-series rolling evaluation lab | Time order, rolling origin, leakage check, drift, failure cases |
+| DS-A6 | W12 2 Dec 16:30 → 9 Dec 16:30 | Causal claim and sensitivity analysis | DAG, estimand, identification, alternatives, sensitivity/refutation |
 
-## Every assignment includes
+Each task is worth 5 points. Together they provide 30 points and constitute the Homework 30% component. These six items are the complete set of independently graded assignments for this offering.
 
-1. a top-to-bottom executable `.ipynb`;
-2. a PDF exported from the same notebook;
-3. `requirements.txt`, `environment.yml`, or equivalent environment specification;
-4. data source, license, split, seed, and preprocessing statement;
-5. baseline, primary metric, raw results, and error/failure analysis;
-6. an AI-use record covering tool, task, material suggestions, acceptance/rejection, and verification; and
-7. limitations, ethical risk, and the next falsifiable experiment.
+## Minimum submission standard
 
-## Common rubric
+1. A top-to-bottom executable notebook or equivalent code, exported PDF, and reproduction commands;
+2. data source, license, version, split, seed, dependencies, and runtime environment;
+3. problem, assumptions, baseline, metric, actual output, and error/failure analysis;
+4. at least one counterexample, sensitivity check, or applicability boundary that could challenge the claim;
+5. an AI-use record covering tool, task, material advice, acceptance/rejection, and independent verification; and
+6. no fabricated execution, data, sources, or users, and no unexplained generated work.
 
-| Dimension | Points | Main criterion |
+## Common five-point rubric
+
+| Dimension | Points | Passing evidence |
 |---|---:|---|
-| Correctness | 5 | Method, implementation, numbers, metrics, and conclusions agree; boundaries are tested |
-| Clarity | 3 | Assumptions, choices, graphics, errors, limitations, and counterexamples are understandable |
-| Reproducibility and format | 2 | Clean execution; complete files, dependencies, seed, data, and output |
+| Problem, method, and assumptions | 1.25 | Testable question, method aligned with data generation, explicit assumptions |
+| Execution and reproducibility | 1.50 | Another person can reproduce environment, data, code, and actual output |
+| Analysis, counterexample, and boundary | 1.25 | Errors and uncertainty are explained; failure conditions are actively sought |
+| Communication, reflection, and AI verification | 1.00 | Clear conclusion; AI contribution is traceable and independently checked |
+| **Total** | **5.00** |  |
 
-## Hints and solution boundary
+## Deadline, feedback, and solution boundary
 
-Before the deadline, instructors and the AI Tutor may clarify the goal, identify an evidence gap, suggest a strategy, or offer an independent small example. They do not release a substantially isomorphic complete implementation, instructor solution, or hidden test. When a hint budget is exhausted, the work escalates to the instructor or TA rather than automatically revealing an answer.
-
-<div class="notice"><strong>Offering-specific grading</strong>The materials contain eleven assignments, but the active Assessment Policy determines which count and how. Extra submissions do not automatically replace selected work.</div>
+- The Asia/Shanghai timestamp in `learn.spaiq.ai` is authoritative; every submission window is exactly seven days.
+- A late submission is accepted only when the instructor grants a late permission in the platform; the original deadline remains recorded.
+- The instructor and AI Tutor may clarify goals, identify evidence gaps, suggest strategies, or provide a small example from another task. They do not disclose a complete same-task solution, instructor answer, or hidden test.
+- Platform submission versions, feedback, AI comments, and published teacher comments form the official process record.
 
 </div>
-

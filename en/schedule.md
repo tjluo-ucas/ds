@@ -1,51 +1,55 @@
 ---
 title: "Schedule"
-description: "A 13-week Data Science sequence with assignments, experiments, and capstone milestones."
+description: "The Fall 2026 fifteen-week Data Science schedule, six assessed tasks, and capstone milestones."
 lang: en
 translation_url: /schedule/
 permalink: /en/schedule/
 page_key: schedule
 ---
 
-<section class="page-hero"><div class="page-hero-inner"><p class="eyebrow">13-week learning arc</p><h1>Course schedule</h1><p>Begin with problems and data, then progress through statistical learning, deep models, uncertainty, causality, decisions, and value.</p></div></section>
+<section class="page-hero"><div class="page-hero-inner"><p class="eyebrow">Fall 2026 · 15-week learning arc</p><h1>Course schedule</h1><p>Classes meet Wednesdays 14:00–16:30, moving from questions and data to statistical learning, uncertainty, causality, decisions, and a reproducible capstone.</p></div></section>
 
 <div class="content-shell" markdown="1">
 
-## Learning sequence
+## Authoritative Fall 2026 timing
 
-| Week | Topic | Practice and evidence | Milestone |
+- Classes run from 16 September through 23 December 2026, Wednesdays 14:00–16:30, for fifteen weeks.
+- The handwritten weekly class note is photographed and submitted within 24 hours, by Thursday 16:30.
+- Six assessed tasks are released after class in Weeks 2, 4, 6, 8, 10, and 12 and close exactly seven days later.
+- Each task is worth 5 points. The six tasks total 30 points and constitute the Homework 30% component.
+- The Asia/Shanghai timestamps shown in `learn.spaiq.ai` are authoritative for submission and late status.
+
+## Fifteen-week plan
+
+| Week | Date | Topic and in-class evidence | Assessed task or milestone |
 |---:|---|---|---|
-| 1 | What is Data Science? | Domain problem, variables, signal/noise, environment check | Capstone exploration |
-| 2 | Data, measurement, and exploration | Data card, EDA, missingness/bias, testable hypothesis | DS-A1 |
-| 3 | Probability foundations | Distributions, simulation, convergence, Bayesian updating | DS-A2 |
-| 4 | Statistical inference | t-test, bootstrap CI, A/B testing, power | DS-A3 |
-| 5 | Wrangling and visualization | Cleaning, features, graphics, narrative, misleading-chart diagnosis | DS-A4; Proposal |
-| 6 | Regression | OLS, regularization, logistic regression, metrics | DS-A5 |
-| 7 | Classification and clustering | kNN/tree, CV, calibration, K-means, spectral methods | DS-A6; Midterm |
-| 8 | Neural networks | Perceptron, MLP, backpropagation, dropout, L2 | DS-A7; Progress |
-| 9 | Deep learning for science | CNNs, sequence models, explainability, baselines | DS-A8 |
-| 10 | Time series | ARIMA, LSTM/Transformer, rolling-origin evaluation | DS-A9 |
-| 11 | Representation learning | PCA, autoencoders, t-SNE/UMAP sensitivity | DS-A10 |
-| 12 | Uncertainty, robustness, and causality | Calibration, OOD, ATE, fairness, model card | DS-A11 |
-| 13 | Decision and value | Risk, abstention, DecisionOps, impact, ROI | Final report and presentation |
-
-> This public path reconciles the formal 13-week syllabus with the Week 2–12 assignment materials. Offering-specific dates, merged topics, counted assignments, and examination arrangements remain authoritative.
+| 1 | 16 Sep | Readiness and the problem–data–decision chain | Ungraded readiness check; capstone exploration |
+| 2 | 23 Sep | Measurement, provenance, and data-generating processes | **DS-A1** released 16:30; due 30 Sep 16:30 |
+| 3 | 30 Sep | Probability, simulation, and uncertainty | A1 evidence feedback |
+| 4 | 7 Oct | Inference, hypothesis testing, and intervals | **DS-A2** released 16:30; due 14 Oct 16:30 |
+| 5 | 14 Oct | Data health, EDA, and visualization | Capstone proposal |
+| 6 | 21 Oct | Regression and interpretable baselines | **DS-A3** released 16:30; due 28 Oct 16:30 |
+| 7 | 28 Oct | Classification, clustering, and evaluation | Midterm (20%) |
+| 8 | 4 Nov | Neural networks and representation learning | **DS-A4** released 16:30; due 11 Nov 16:30; progress review |
+| 9 | 11 Nov | Scientific image and sequence experiments | Model-error and counterexample review |
+| 10 | 18 Nov | Time series and rolling evaluation | **DS-A5** released 16:30; due 25 Nov 16:30 |
+| 11 | 25 Nov | Calibration, OOD, and selective prediction | Risk threshold and human-escalation review |
+| 12 | 2 Dec | Association, causality, intervention, and sensitivity | **DS-A6** released 16:30; due 9 Dec 16:30 |
+| 13 | 9 Dec | Fairness, ethics, and responsible decisions | Model/Data Card review |
+| 14 | 16 Dec | Capstone evidence and reproducibility review | Final RC and cross-team reproduction |
+| 15 | 23 Dec | Final project review and defence | Final report, repository, and presentation |
 
 ## Capstone rhythm
 
-| Stage | Suggested time | Minimum deliverable |
+| Stage | Time | Minimum deliverable |
 |---|---:|---|
 | Proposal | Week 5 | Two pages: problem, related work, data license, ethics, success metric |
 | Progress | Week 8 | Three pages: EDA, baseline, protocol, risks, learning curve, ablation |
-| Final | Week 13 | 8–10 page report, 10-minute presentation, reproducible repository |
+| Release candidate | Week 14 | Frozen version, reproduction guide, known risks, cross-team check |
+| Final | Week 15 | 8–10 page report, 10-minute presentation, reproducible repository |
 
 ## Weekly learning loop
 
-1. Read the motivating question and key concepts;
-2. formulate hypotheses, counterexamples, and evaluation criteria in class;
-3. implement and record actual notebook results;
-4. check the result with an oracle, baseline, error analysis, or peer review; and
-5. submit an explanation, limitations, AI-use record, and next experiment.
+Preparation and questions → in-class hypotheses, counterexamples, and experiments → photograph and organize handwritten notes → submit within 24 hours → complete the evidence task → teacher and AI feedback → re-check on new data or conditions.
 
 </div>
-

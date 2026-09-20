@@ -19,7 +19,7 @@ page_key: home
   </div>
 </section>
 
-<div class="stat-strip"><div class="stats"><div class="stat"><strong>7</strong><span>data activities</span></div><div class="stat"><strong>5</strong><span>evidence layers</span></div><div class="stat"><strong>D0–D5</strong><span>mastery progression</span></div><div class="stat"><strong>Evidence</strong><span>before claims</span></div></div></div>
+<div class="stat-strip"><div class="stats"><div class="stat"><strong>6</strong><span>assessed tasks</span></div><div class="stat"><strong>15</strong><span>weeks of learning</span></div><div class="stat"><strong>D0–D5</strong><span>mastery progression</span></div><div class="stat"><strong>Evidence</strong><span>before claims</span></div></div></div>
 
 <section class="section">
   <div class="section-head"><p class="kicker">Authoritative definition</p><h2>What is Data Science as a discipline?</h2><p>The <a href="https://www.nationalacademies.org/read/25104/chapter/2">National Academies consensus report</a> describes Data Science as activities spanning data collection, storage, integration, analysis, inference, communication, and ethics. The <a href="https://dstf.acm.org/">ACM Data Science Task Force</a> further places computing contributions inside a broader interdisciplinary curriculum.</p></div>
@@ -64,4 +64,4 @@ page_key: home
   <div class="notice"><strong>The Tutor is not an autopilot</strong>Students submit an attempt before a core hint. The Hint Budget moves from Socratic questions toward method advice without releasing the same-task answer. Conflicting evidence, exhausted hints, and high-risk decisions escalate to a teacher or TA.</div>
 </section>
 
-<section class="section"><div class="callout"><div><h2>Start with the first testable question</h2><p>Enter the 13-week path, 11 assignments, evidence labs, and reproducible capstone.</p></div><a class="button button-primary" href="{{ '/en/schedule/' | relative_url }}">View the schedule</a></div></section>
+<section class="section"><div class="callout"><div><h2>Start with the first testable question</h2><p>Enter the 15-week path, six assessed tasks, evidence labs, and a reproducible capstone.</p></div><a class="button button-primary" href="{{ '/en/schedule/' | relative_url }}">View the schedule</a></div></section>
