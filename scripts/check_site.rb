@@ -18,7 +18,7 @@ config = YAML.safe_load((ROOT / "_config.yml").read, aliases: true)
 errors << "baseurl must be /ds" unless config["baseurl"] == "/ds"
 errors << "url must target tjluo-ucas.github.io" unless config["url"] == "https://tjluo-ucas.github.io"
 
-page_files = %w[index.md syllabus.md schedule.md lectures.md assignments.md labs.md project.md resources.md]
+page_files = %w[index.md syllabus.md schedule.md lectures.md assignments.md labs.md project.md resources.md submission-guide.md]
 pages = {}
 
 page_files.each do |relative|

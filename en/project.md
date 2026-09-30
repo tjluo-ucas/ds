@@ -11,6 +11,8 @@ page_key: project
 
 <div class="content-shell" markdown="1">
 
+> **Project submissions:** Follow the [Course Submission Guide]({{ '/en/submission-guide/' | relative_url }}) for project proposals and final reports, upload the written materials and code, and register each submission on [learn.spaiq.ai](https://learn.spaiq.ai).
+
 ## Objective
 
 The capstone addresses a real scientific or engineering data problem, normally in a team of two or three. A model demo is insufficient. The project explains data generation and licensing, the problem hypothesis, baseline, evaluation protocol, errors and risks, deployment or use context, and the boundary of every conclusion.
@@ -52,4 +54,3 @@ Any of the following blocks a pass: no clean reproduction; fabricated data, user
 Scientific imaging and remote sensing, time-series forecasting, anomaly detection, causal inference, robust/OOD learning, human-AI decisions, AI evaluation, and tools for education or scientific discovery are suitable directions. Other proposals are welcome when data, users, ethics, and validation are feasible within the term.
 
 </div>
-

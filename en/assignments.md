@@ -11,6 +11,8 @@ page_key: assignments
 
 <div class="content-shell" markdown="1">
 
+> **How to submit:** For weekly lecture notes, homework, project proposals, and final reports, follow the [Course Submission Guide]({{ '/en/submission-guide/' | relative_url }}) and register the links and summary on [learn.spaiq.ai](https://learn.spaiq.ai).
+
 ## Authoritative assessed-task catalog
 
 | ID | Release and deadline (Asia/Shanghai) | Task | Core evidence |

@@ -11,6 +11,8 @@ page_key: assignments
 
 <div class="content-shell" markdown="1">
 
+> **如何提交：** 每周课堂笔记、作业、项目提案和期末报告均须按[课程提交指南]({{ '/submission-guide/' | relative_url }})存放材料，并在 [learn.spaiq.ai](https://learn.spaiq.ai) 登记链接和总结。
+
 ## 唯一计分任务目录
 
 | ID | 发布与截止（北京时间） | 任务 | 核心证据 |

@@ -33,6 +33,7 @@
         <a {% if page.page_key == 'project' %}class="active" aria-current="page"{% endif %} href="{{ '/project/' | relative_url }}">课程项目</a>
         <a {% if page.page_key == 'resources' %}class="active" aria-current="page"{% endif %} href="{{ '/resources/' | relative_url }}">学习资源</a>
       {% endif %}
+      <a {% if page.page_key == 'submission-guide' %}class="active" aria-current="page"{% endif %} href="{% if is_en %}{{ '/en/submission-guide/' | relative_url }}{% else %}{{ '/submission-guide/' | relative_url }}{% endif %}">{% if is_en %}Submission Guide{% else %}提交指南{% endif %}</a>
       <a class="language-link" href="{{ page.translation_url | default: '/en/' | relative_url }}" hreflang="{% if is_en %}zh-CN{% else %}en{% endif %}">{% if is_en %}中文{% else %}EN{% endif %}</a>
     </nav>
   </div>
